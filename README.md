@@ -5,7 +5,7 @@ A brief description of what this project does and who it's for
 
 This project is reference to the Digital decentralised Bank that allow to stake(deposit) and 
 unstaking(withdraw) tokens (Ethereum cryptocurrency) making some transaction using blockchain 
-technology throught Web3 which is going to actually allow us to interact with MetaMask(wallet)
+technology through Web3 which is going to actually allow us to interact with MetaMask(wallet)
 interacting with accounst on MetaMask.
 
 
@@ -21,10 +21,6 @@ Install MetaMask - https://metamask.io/
 Install Ganache - https://trufflesuite.com/ganache/ - click on quick start to test a network up 
 and running to hook up to be deployng all of the Smart Contracts.
 
-
-```bash
-  
-```
     
 ## Run Locally
 
@@ -38,13 +34,15 @@ Go to the project directory
 
 ```bash
   cd digitalBK
+  
 ```
 
 Install dependencies
 
 ```bash
- Install in the project defi-staking-app -   npm install 
- Install in the text editor search for Solidity Extensions - Ethereum Solidity Language
+ Install the project digitalBK -   npm install 
+ Install the text editor search for Solidity Extensions - Ethereum Solidity Language
+ 
 
  We need to link Ganache with MetaMask it is not going to be automatically set up.
 
@@ -58,11 +56,16 @@ Install dependencies
 
  4 - When you save go to network find Ganache and click on it.
 
- 5 - Import acconts to Ganache click on line to on Ganache ("index 1" it will be represent the
- accont for the customer to hook up to the Ethereum network) click on the key and grab the Private
+ 5 - Go to the terminal search digitalBK folder and run truffle migrate --reset to up date the Ganache address account ("index 1")
+ 
+ 6 - Import accounts to Ganache click on line to on Ganache ("index 1" it will be represent the
+ account for the customer to hook up to the Ethereum network) click on the key and grab the Private
  key number copy it go to the Metamesk, click on the circle icon on the top right side, choose the
- import account paste it on the Ganache network click on import. You should see thai the Ganache,
+ import account paste it on the Ganache network click on import. You should see that the Ganache,
  We have 100 ether in this account.
+ 
+ 7 - Go to terminal and run npm start or yarn start in the digitalBK folder and refresh the browser to see the correct account address and
+ 100 ether display on the Stake token Balance.
  
 
 ```
