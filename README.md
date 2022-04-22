@@ -10,6 +10,7 @@ interacting with accounst on MetaMask.
 
 # Demo
 
+https://github.com/Luizcampos84/digitalBK/blob/main/DigitalBK.gif
 
 ## Installation
 
